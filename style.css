@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+body {
+  background: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+main {
+  display: block;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: hsl(225, 100%, 94%);
+
+  text-align: center;
+  max-width: auto;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+img#icon-music {
+  width: 12%;
+  height: auto;
+}
+div#container {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+  color: black;
+}
+
+div#plan {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  background: hsl(225, 100%, 94%);
+  border-radius: 15px;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+}
+a {
+  margin: 5%;
+  font-size: 18px;
+  background-color: transparent;
+}
+p#commit {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin: 0px 14% 35px;
+  background-color: white;
+}
+h2 {
+  margin: 0px 5% 5%;
+
+  font-weight: 600;
+}
+h3 {
+  font-size: auto;
+  font-weight: 800;
+  margin-bottom: 0.75%;
+}
+button {
+  font-weight: 400;
+  text-decoration: none;
+}
+button#pay {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  margin-bottom: 1%;
+  background: rgb(10, 10, 196);
+  border-radius: 15px;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+}
+button#cancel {
+  padding: 5%;
+  background-color: transparent;
+}
+@media screen and (max-width: 670px) {
+  img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  main {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: hsl(225, 100%, 94%);
+  }
+}
