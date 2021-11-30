@@ -75,6 +75,7 @@ button {
   text-decoration: none;
 }
 button#pay {
+  color: rgb(224, 223, 223);
   display: flex;
   justify-content: space-around;
   padding: 2%;
