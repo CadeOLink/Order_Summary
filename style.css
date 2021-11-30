@@ -12,13 +12,13 @@ body {
   margin-bottom: 0px;
 }
 main {
+  margin-top: 1.5%;
   display: block;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: hsl(225, 100%, 94%);
-
+  background-color: white;
   text-align: center;
-  max-width: auto;
+  max-height: 768px;
 }
 
 img {
@@ -51,7 +51,7 @@ div#plan {
 }
 a {
   margin: 5%;
-  font-size: 18px;
+  font-size: auto;
   background-color: transparent;
 }
 p#commit {
@@ -68,7 +68,7 @@ h2 {
 h3 {
   font-size: auto;
   font-weight: 800;
-  margin-bottom: 0.75%;
+  margin: 5% 3% 5% 1%;
 }
 button {
   font-weight: 400;
@@ -85,9 +85,10 @@ button#pay {
   width: 80%;
   align-items: center;
   margin-left: 10%;
+  cursor: pointer;
 }
 button#cancel {
-  padding: 5%;
+  padding: 5% 5% 1% 5%;
   background-color: transparent;
 }
 @media screen and (max-width: 670px) {
@@ -95,9 +96,15 @@ button#cancel {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
+
   main {
+    margin-top: 0%;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background: hsl(225, 100%, 94%);
+  }
+}
+@media screen and (max-width: 332px) {
+  a {
+    margin: 1%;
   }
 }
