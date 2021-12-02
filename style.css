@@ -8,17 +8,14 @@ body {
   background: hsl(225, 100%, 94%);
   display: flex;
   justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 main {
-  margin-top: 1.5%;
-  display: block;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   background-color: white;
   text-align: center;
-  max-height: 768px;
+  display: inline;
 }
 
 img {
@@ -45,9 +42,9 @@ div#plan {
   margin-bottom: 5%;
   background: hsl(225, 100%, 94%);
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
   align-items: center;
-  margin-left: 10%;
+  margin: auto;
 }
 a {
   margin: 5%;
@@ -76,35 +73,42 @@ button {
 }
 button#pay {
   color: rgb(224, 223, 223);
-  display: flex;
-  justify-content: space-around;
   padding: 2%;
-  margin-bottom: 1%;
+  margin-top: 5%;
   background: rgb(10, 10, 196);
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
   align-items: center;
-  margin-left: 10%;
   cursor: pointer;
 }
 button#cancel {
   padding: 5% 5% 1% 5%;
   background-color: transparent;
 }
-@media screen and (max-width: 670px) {
-  img {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
 
+@media screen and (min-width: 600px) {
   main {
-    margin-top: 0%;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    margin: 3em 1em;
+    width: 40%;
   }
 }
-@media screen and (max-width: 332px) {
+@media screen and (min-width: 1000px) {
+  main {
+    margin: 2% 1em;
+    width: 40%;
+  }
+}
+/* @media screen and (min-width: 1280px) {
+  main {
+    margin: 0em 0em;
+    width: 40%;
+  }
+} */
+@media screen and (max-width: 600px) {
   a {
     margin: 1%;
+  }
+  main {
+    margin: 2.2em 1em;
   }
 }
