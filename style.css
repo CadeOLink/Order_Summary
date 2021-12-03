@@ -6,7 +6,6 @@
 }
 body {
   height: 100vh;
-  /* height: 90%; */
   background: hsl(225, 100%, 94%);
   display: flex;
   justify-content: center;
@@ -89,20 +88,21 @@ button#pay {
   cursor: pointer;
   box-shadow: 0px 16px 20px 0px rgb(10 10 196 / 30%);
 }
-button#pay:hover{
+button#pay:hover {
   opacity: 0.7;
 }
 button#cancel {
+  color: rgba(0, 0, 0, 0.61);
   transition: 0.2s;
   padding: 5% 5% 1% 5%;
   background-color: transparent;
 }
-button#cancel:hover{
+button#cancel:hover {
   color: black;
   opacity: 0.7;
   cursor: pointer;
 }
-a:hover{
+a:hover {
   opacity: 0.7;
   text-decoration: underline;
 }
@@ -116,7 +116,7 @@ a:hover{
 }
 @media screen and (min-width: 1000px) {
   main {
-    margin: 2% 1em;
+    margin: 8% 1em;
     width: 40%;
   }
 }
@@ -132,7 +132,6 @@ a:hover{
   }
   main {
     margin: 5em 1em;
-    height: 40%
+    height: 40%;
   }
 }
-
