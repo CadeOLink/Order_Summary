@@ -28,36 +28,6 @@ img#icon-music {
   height: auto;
 }
 div#container {
-  b* {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  font-family: 'Red Hat Display', sans-serif;
-}
-body {
-  background: hsl(225, 100%, 94%);
-  display: flex;
-  justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-main {
-  border-radius: 15px;
-  background-color: white;
-  text-align: center;
-  display: inline;
-}
-
-img {
-  width: 100%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-img#icon-music {
-  width: 12%;
-  height: auto;
-}
-div#container {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding-top: 5%;
