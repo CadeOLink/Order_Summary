@@ -37,6 +37,7 @@ div#container {
   padding-bottom: 5%;
   background-color: white;
   color: black;
+  box-shadow: 0px 15px 20px 0px #0000004d;
 }
 
 div#plan {
