@@ -5,6 +5,7 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 body {
+  height: 100vh;
   background: hsl(225, 100%, 94%);
   display: flex;
   justify-content: center;
@@ -16,6 +17,7 @@ main {
   background-color: white;
   text-align: center;
   display: inline;
+  max-width: 350px;
 }
 
 img {
@@ -94,6 +96,8 @@ button#cancel {
 }
 button#cancel:hover{
   color: black;
+  opacity: 0.7;
+  cursor: pointer;
 }
 a:hover{
   opacity: 0.7;
@@ -126,3 +130,4 @@ a:hover{
     margin: 2.2em 1em;
   }
 }
+
